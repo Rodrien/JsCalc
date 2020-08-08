@@ -1,0 +1,65 @@
+body{
+    font-size: 30px;
+}
+
+button{
+    width: 25%;
+    height: 120px;
+    background-color: whitesmoke;
+    font-size: 50px;
+    border-style: solid;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: white;
+}
+
+button:active{
+    background-color: rgb(209, 208, 208);
+}
+
+button:last-child{
+    background-color: skyblue;
+    color: white;
+}
+
+button:last-child:active{
+    background-color: rgb(176, 218, 235);
+}
+
+.main{
+    margin:0 auto 0 auto;
+    width: 30%;
+}
+
+.display{
+    background-color: black;
+    height: 50px;
+    text-align: right;
+    color: white;
+    padding-right: 2%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+
+.buttons{
+    margin:0 auto 0 auto;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+}
+
+.btn-c{
+    width: 50%;
+}
+
+.btn-0{
+    width: 75%;
+}
